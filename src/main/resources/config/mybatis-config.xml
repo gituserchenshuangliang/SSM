@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!-- 别名设置，Mybatis初始化时系统自动设置一些别名，另外可以通过代码注册别名 -->
+    <typeAliases>
+        <!-- 扫描别名 别名首字母小写-->
+        <package name="com.ssm.entity"/>
+    </typeAliases>
+
+</configuration>
